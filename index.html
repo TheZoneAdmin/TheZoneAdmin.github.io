@@ -1,148 +1,121 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>The Zone Neston - Achievement Gallery</title>
-    <meta property="og:title" content="Achievements at The Zone Neston" />
-    <meta property="og:description" content="Fitness achievements from The Zone Neston" />
+    <title>The Zone - Achievement Gallery</title>
+    <meta property="og:title" content="Achievements at The Zone" />
+    <meta property="og:description" content="Fitness achievements from The Zone" />
     <style>
         body {
             background: #1a1a1a;
             color: #CCBA78;
             font-family: system-ui, -apple-system, sans-serif;
             margin: 0;
-            padding: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
         }
         .achievement-card {
             width: 1200px;
             height: 630px;
             background: #1a1a1a;
             border: 2px solid #CCBA78;
-            margin: 0 auto 40px;
             position: relative;
             display: flex;
             flex-direction: column;
-            justify-content: space-between;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 40px;
         }
         .watermark {
             position: absolute;
-            top: 40px;
-            right: 40px;
-            font-size: 72px;
+            top: 30px;
+            right: 30px;
+            font-size: 48px;
             opacity: 0.1;
             font-weight: bold;
             color: #CCBA78;
         }
-        .content {
-            padding: 60px;
-            display: flex;
-            flex-direction: column;
-            height: 100%;
-        }
         .header {
             display: flex;
+            flex-direction: column;
             align-items: center;
             gap: 20px;
             margin-bottom: 40px;
         }
         .title {
-            font-size: 64px;
+            font-size: 72px;
             font-weight: bold;
             color: #CCBA78;
             margin: 0;
         }
         .description {
-            font-size: 32px;
+            font-size: 36px;
             color: #ffffff;
-            margin: 0 0 auto 0;
+            margin: 0;
         }
         .points {
             font-size: 48px;
             color: #CCBA78;
-            margin-bottom: 40px;
+            margin: 30px 0;
         }
-        .gym-info {
+        .cta-text {
             color: #ffffff;
-            font-size: 24px;
-            line-height: 1.6;
-            margin-top: auto;
+            font-size: 32px;
+            margin-top: 40px;
+            font-weight: 500;
         }
     </style>
 </head>
 <body>
     <!-- First Week Champion -->
     <div id="first-week" class="achievement-card">
-        <div class="watermark">THE ZONE NESTON</div>
-        <div class="content">
-            <div class="header">
-                <span style="font-size: 64px">🏆</span>
-                <h1 class="title">First Week Champion</h1>
-            </div>
-            <p class="description">Complete all habits for one week</p>
-            <p class="points">210 points</p>
-            <div class="gym-info">
-                The Zone Neston<br>
-                Clayhill Industrial Estate, Buildwas Rd<br>
-                Neston CH64 3RU<br>
-                07719 302536
-            </div>
+        <div class="watermark">THE ZONE</div>
+        <div class="header">
+            <span style="font-size: 84px">🏆</span>
+            <h1 class="title">First Week Champion</h1>
         </div>
+        <p class="description">Complete all habits for one week</p>
+        <p class="points">210 points</p>
+        <p class="cta-text">Join us and earn your first achievement at The Zone!</p>
     </div>
 
     <!-- Streak Master -->
     <div id="streak-master" class="achievement-card">
-        <div class="watermark">THE ZONE NESTON</div>
-        <div class="content">
-            <div class="header">
-                <span style="font-size: 64px">🔥</span>
-                <h1 class="title">Streak Master</h1>
-            </div>
-            <p class="description">Maintain a 7-day streak</p>
-            <p class="points">70 points</p>
-            <div class="gym-info">
-                The Zone Neston<br>
-                Clayhill Industrial Estate, Buildwas Rd<br>
-                Neston CH64 3RU<br>
-                07719 302536
-            </div>
+        <div class="watermark">THE ZONE</div>
+        <div class="header">
+            <span style="font-size: 84px">🔥</span>
+            <h1 class="title">Streak Master</h1>
         </div>
+        <p class="description">Maintain a 7-day streak</p>
+        <p class="points">70 points</p>
+        <p class="cta-text">Ready to start your fitness streak? Join The Zone today!</p>
     </div>
 
     <!-- Habit Warrior -->
     <div id="habit-warrior" class="achievement-card">
-        <div class="watermark">THE ZONE NESTON</div>
-        <div class="content">
-            <div class="header">
-                <span style="font-size: 64px">🏅</span>
-                <h1 class="title">Habit Warrior</h1>
-            </div>
-            <p class="description">Complete 50 total habits</p>
-            <p class="points">500 points</p>
-            <div class="gym-info">
-                The Zone Neston<br>
-                Clayhill Industrial Estate, Buildwas Rd<br>
-                Neston CH64 3RU<br>
-                07719 302536
-            </div>
+        <div class="watermark">THE ZONE</div>
+        <div class="header">
+            <span style="font-size: 84px">🏅</span>
+            <h1 class="title">Habit Warrior</h1>
         </div>
+        <p class="description">Complete 50 total habits</p>
+        <p class="points">500 points</p>
+        <p class="cta-text">Become a Habit Warrior at The Zone - Join now!</p>
     </div>
 
     <!-- Program Master -->
     <div id="program-master" class="achievement-card">
-        <div class="watermark">THE ZONE NESTON</div>
-        <div class="content">
-            <div class="header">
-                <span style="font-size: 64px">👑</span>
-                <h1 class="title">Program Master</h1>
-            </div>
-            <p class="description">Complete an entire 8-week program</p>
-            <p class="points">1680 points</p>
-            <div class="gym-info">
-                The Zone Neston<br>
-                Clayhill Industrial Estate, Buildwas Rd<br>
-                Neston CH64 3RU<br>
-                07719 302536
-            </div>
+        <div class="watermark">THE ZONE</div>
+        <div class="header">
+            <span style="font-size: 84px">👑</span>
+            <h1 class="title">Program Master</h1>
         </div>
+        <p class="description">Complete an entire 8-week program</p>
+        <p class="points">1680 points</p>
+        <p class="cta-text">Master your fitness journey at The Zone!</p>
     </div>
 </body>
 </html>
