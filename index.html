@@ -2,19 +2,22 @@
 <html>
 <head>
     <title>The Zone - Achievement Gallery</title>
-    <meta property="og:title" content="Achievements at The Zone" />
-    <meta property="og:description" content="Fitness achievements from The Zone" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="The Zone Achievement" />
+    <meta property="og:description" content="Achievement unlocked at The Zone" />
+    <meta property="og:image" content="https://thezoneadmin.github.io/first-week.png" />
+    <meta property="og:type" content="website" />
     <style>
         body {
-            background: #1a1a1a;
-            color: #CCBA78;
-            font-family: system-ui, -apple-system, sans-serif;
             margin: 0;
             padding: 20px;
+            background: #1a1a1a;
             display: flex;
             flex-direction: column;
             align-items: center;
-            gap: 20px;
+            gap: 40px;
+            font-family: system-ui, -apple-system, sans-serif;
         }
         .achievement-card {
             width: 1200px;
@@ -24,15 +27,16 @@
             position: relative;
             display: flex;
             flex-direction: column;
-            justify-content: center;
             align-items: center;
+            justify-content: center;
             text-align: center;
             padding: 40px;
+            box-sizing: border-box;
         }
         .watermark {
             position: absolute;
-            top: 30px;
-            right: 30px;
+            top: 40px;
+            right: 40px;
             font-size: 48px;
             opacity: 0.1;
             font-weight: bold;
@@ -45,6 +49,10 @@
             gap: 20px;
             margin-bottom: 40px;
         }
+        .emoji {
+            font-size: 96px;
+            line-height: 1;
+        }
         .title {
             font-size: 72px;
             font-weight: bold;
@@ -54,68 +62,63 @@
         .description {
             font-size: 36px;
             color: #ffffff;
-            margin: 0;
+            margin: 20px 0;
         }
         .points {
             font-size: 48px;
             color: #CCBA78;
-            margin: 30px 0;
+            margin: 20px 0;
         }
-        .cta-text {
-            color: #ffffff;
+        .cta {
             font-size: 32px;
+            color: #ffffff;
             margin-top: 40px;
-            font-weight: 500;
         }
     </style>
 </head>
 <body>
-    <!-- First Week Champion -->
     <div id="first-week" class="achievement-card">
         <div class="watermark">THE ZONE</div>
         <div class="header">
-            <span style="font-size: 84px">🏆</span>
+            <div class="emoji">🏆</div>
             <h1 class="title">First Week Champion</h1>
         </div>
         <p class="description">Complete all habits for one week</p>
         <p class="points">210 points</p>
-        <p class="cta-text">Join us and earn your first achievement at The Zone!</p>
+        <p class="cta">Join us and start your transformation journey!</p>
     </div>
 
-    <!-- Streak Master -->
     <div id="streak-master" class="achievement-card">
         <div class="watermark">THE ZONE</div>
         <div class="header">
-            <span style="font-size: 84px">🔥</span>
+            <div class="emoji">🔥</div>
             <h1 class="title">Streak Master</h1>
         </div>
         <p class="description">Maintain a 7-day streak</p>
         <p class="points">70 points</p>
-        <p class="cta-text">Ready to start your fitness streak? Join The Zone today!</p>
+        <p class="cta">Keep your fitness streak alive with us!</p>
     </div>
 
-    <!-- Habit Warrior -->
     <div id="habit-warrior" class="achievement-card">
         <div class="watermark">THE ZONE</div>
         <div class="header">
-            <span style="font-size: 84px">🏅</span>
+            <div class="emoji">🏅</div>
             <h1 class="title">Habit Warrior</h1>
         </div>
         <p class="description">Complete 50 total habits</p>
         <p class="points">500 points</p>
-        <p class="cta-text">Become a Habit Warrior at The Zone - Join now!</p>
+        <p class="cta">Forge your fitness habits with The Zone!</p>
     </div>
 
-    <!-- Program Master -->
     <div id="program-master" class="achievement-card">
         <div class="watermark">THE ZONE</div>
         <div class="header">
-            <span style="font-size: 84px">👑</span>
+            <div class="emoji">👑</div>
             <h1 class="title">Program Master</h1>
         </div>
         <p class="description">Complete an entire 8-week program</p>
         <p class="points">1680 points</p>
-        <p class="cta-text">Master your fitness journey at The Zone!</p>
+        <p class="cta">Master your fitness journey at The Zone!</p>
     </div>
 </body>
 </html>
